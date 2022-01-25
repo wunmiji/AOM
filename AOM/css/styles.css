@@ -1,0 +1,337 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: 'Kaushan';
+  src: url('../fonts/KaushanScript-Regular.otf'); 
+}
+
+@font-face {
+  font-family: 'Quantify';
+  src: url('../fonts/Quantify.ttf'); 
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #101820;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+
+
+
+
+main > .index {
+	flex-grow: 1;
+	font-family: 'Raleway', sans-serif;
+	color: #F2F2F2;
+	font-size: 35px;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .index > .logo {
+	margin-bottom: 30px;
+	color: #ff5757;
+	font-family: 'Quantify', sans-serif;
+}
+
+main > .index > .name {
+	margin: 10px;
+}
+
+main > .index > .name > p > span {
+	color: #ff5757;
+	font-family: 'Kaushan', sans-serif;
+	margin-left: 10px;
+}
+
+main > .index > .view-work {
+	margin-top: 25px;
+	border: 1px solid #7ed957;
+	color: #7ed957;
+	font-size: 18px;
+	padding: 10px 20px 10px 20px;
+}
+
+main > .index > .view-work:hover {
+	border: 1px solid #ff5757;
+	color: #ff5757;
+}
+
+
+
+
+
+
+main > .about {
+	flex-grow: 1;
+	font-family: 'Raleway', sans-serif;
+	color: #F2F2F2;
+	font-size: 35px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .about > .logo {
+	margin-bottom: 30px;
+	color: #ff5757;
+	font-family: 'Quantify', sans-serif;
+}
+
+main > .about > .story {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .about > .story > .quote {
+	padding: 10px 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main > .about > .story > .quote > div {
+	font-size: 18px;
+	font-style: italic;
+	
+}
+
+main > .about > .story > .quote > div > span {
+	font-size: 14px;
+}
+
+main > .about > .story > .quote > div > span:before {
+	margin-left: 30px;
+	content: "\2014 \2009";
+}
+
+main > .about > .story > .quote > img {
+	margin-right: 20px;
+}
+
+main > .about > .story > .lang {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+main > .about > .story > .lang > .img {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+main > .contact {
+	flex-grow: 1;
+	color: #F2F2F2;
+	font-size: 35px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .contact > .logo {
+	margin-bottom: 30px;
+	color: #ff5757;
+	font-family: 'Quantify', sans-serif;
+}
+
+main > .contact > form {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+main > .contact > form > div {
+	display: flex;
+
+	width: 350px;
+	margin: 5px;
+}
+
+main > .contact > form > div > .form-row {
+	flex-grow: 1;
+	padding: 12px;
+	background-color: #7a7a7a;
+	border: none;
+	border-radius: 7px;
+	color: #F2F2F2;
+	font-size: 15px;
+	font-family: 'OpenSans', sans-serif;
+}
+
+main > .contact > form > div > textarea {
+	height: 100px;
+}
+
+main > .contact > form > div > button {
+	flex-grow: 1;
+	padding: 12px;
+	font-family: 'OpenSans', sans-serif;
+	background-color: transparent;
+	border: 1px solid #7ed957;
+	border-radius: 7px;
+	color: #7ed957;
+	font-size: 15px;	
+}
+
+main > .contact > form > div > button:hover {
+	border: 1px solid #ff5757;
+	color: #ff5757;
+}
+
+
+
+
+
+
+main > .portfolio {
+	flex-grow: 1;
+	color: #F2F2F2;
+	font-size: 35px;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .portfolio > .logo {
+	margin-bottom: 30px;
+	color: #ff5757;
+	font-family: 'Quantify', sans-serif;
+}
+
+main > .portfolio > .house-plan {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main > .portfolio > .house-plan > img {
+	margin-right: 30px;
+}
+
+main > .portfolio > .house-plan > .details {
+	font-size: 17px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+main > .portfolio > .house-plan > .details >.each {
+	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+main > .portfolio > .house-plan > .details > .each > .question {
+	flex: 1;
+
+}
+
+main > .portfolio > .house-plan > .details > .each > .answer {
+	flex: 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+main > aside {
+	flex-basis: 70px;
+	flex-shrink: 0;
+    
+    display: flex;
+	flex-wrap: wrap;
+}
+
+main > aside > ul {
+	margin: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+main > aside > ul > li {
+	list-style-type: none;
+	transform: rotate(270deg);
+	margin: 20px 0px 60px 0px;
+}
+
+main > aside > ul > li > a {
+	text-decoration: none;
+	color: #7ed957;
+	font-family: 'OpenSans', sans-serif;
+	padding: 15px;
+	font-size: 15px;
+	
+	text-align: center;
+}
+
+main > aside > ul > li > a:hover {
+	color: #ff5757;
+}
+
+main > aside > ul > li > a:active,
+main > aside > ul > li > a:focus {
+	outline: none;
+	_noFocusLine: expression(this.hideFocus=true);
+}
+
+
+
+
+
+
